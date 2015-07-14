@@ -1,0 +1,38 @@
+python2.7笔记
+
+1、输入输出
+print '100+200=',100+200
+name=raw_input('Please enter your name:')
+
+2、转义字符
+print 'I\'m learning\nPython.'
+print '\\\n\\'
+print r'\\\t\\'
+r'...'中的字符不转义
+
+3、用'''...'''代替\n
+print'''zhao
+rui
+sheng'''
+
+4、布尔值
+print 3>2 and 2>3
+False
+
+5、ASCII码字母和数字的转换
+ord('A')
+65
+chr(65)
+'A'
+
+6、Unicode和UTF-8转换
+u'ABC'.encode('utf-8')
+'abc'.decode('utf-8')
+
+7、格式化
+'Hello,%s'%'world'
+
+8、list（列表）
+classmates=['a','b','c']
+len(classmates)
+向list中追加元素至末尾——
